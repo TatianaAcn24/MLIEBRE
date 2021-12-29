@@ -1,55 +1,51 @@
 .boton-ingresar {
-    background-color: #1259c3;
-    border: 2px solid #1259c3;
-    color: white;
-    transition: background-color 0.5s;
+  background-color: #1259c3;
+  border: 2px solid #1259c3;
+  color: white;
+  transition: background-color 0.5s;
 }
 
 .div-boton {
-    text-align: center;
+  text-align: center;
 }
 
 .div-boton:hover .boton-ingresar {
-    background-color: #0022AA;
-} 
-.form-login h3{
-    margin-top: 50px;
+  background-color: #0022aa;
 }
-.div-boton button{
-    width: 170px;
-    height: 30px;
-    font-size: 10px;
-
+.form-login h3 {
+  margin-top: 50px;
+}
+.div-boton button {
+  width: 170px;
+  height: 30px;
+  font-size: 10px;
 }
 
 @media (min-width: 461px) {
-    .form-login input{
-        width: 250px;
-        height: 30px;
-    }
-    .div-boton button{
-        width: 250px;
-        height: 40px;
-        font-size: 15px;
-
-    }
+  .form-login input {
+    width: 250px;
+    height: 30px;
+  }
+  .div-boton button {
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+  }
 }
 @media (min-width: 769px) {
-    .div-boton button{
-        width: 250px;
-        height: 50px;
-        font-size: 20px;
-
-    }
-    .form-login input{
-        width: 250px;
-        height: 30px;
-    }
-    .form-login h3{
-        margin-top: 250px;
-    }
-    .footer-container {
-        display:flex;
-    }
-   
+  .div-boton button {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .form-login input {
+    width: 250px;
+    height: 30px;
+  }
+  .form-login h3 {
+    margin-top: 250px;
+  }
+  .footer-container {
+    display: flex;
+  }
 }

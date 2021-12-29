@@ -1,423 +1,363 @@
 @import url(styles-login.css);
 @import url(styles-register.css);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .main-container {
-
-    background-color: #EAC926;
-    border: solid #EAC926;
-    margin: 0%; 
-    margin-bottom: 0;
-    position: fixed;
-    z-index: 10; 
-    width: 100%;
-
+  background-color: #eac926;
+  border: solid #eac926;
+  margin: 0%;
+  margin-bottom: 0;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
 .main-container-logo {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 body {
-    
-    font-family: 'Roboto' , sans-serif;
-    margin:auto;
-    background-color: #ebebeb;
-    
-
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  background-color: #ebebeb;
 }
-
 
 main {
-
-    display:block;
-    position: relative; 
-    top: 150px;  
-    margin-left: auto;
-    margin-right: auto; 
-    width: 90%;
-
-
+  display: block;
+  position: relative;
+  top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
-
 .main-navbar {
-
-    display:none;
-    padding: 10px;;
+  display: none;
+  padding: 10px;
 }
 
 .main-navbar ul {
-
-    list-style: none;
-    margin: 0%;
-    padding: 0;
-
+  list-style: none;
+  margin: 0%;
+  padding: 0;
 }
 
 .main-navbar a {
-
-    text-decoration: none;
-    color: #222;
-    display: inline-block;
-    padding: 5px 0;
-    font-size: 17px;
-
+  text-decoration: none;
+  color: #222;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 17px;
 }
 
 h3 {
-
-    font-size: 24px;
-    margin-left: 1%;
-    color: #666;
+  font-size: 24px;
+  margin-left: 1%;
+  color: #666;
 }
 
-
 .productos {
-
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: auto;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
 }
 
 .productos article {
-
-    flex-wrap:wrap;
+  flex-wrap: wrap;
 }
-
 
 article {
-
-    margin-bottom: 10px;
-    position:relative;
-
+  margin-bottom: 10px;
+  position: relative;
 }
 
-
-main article:hover  {
-    box-shadow: 0px 0px 10px rgb(100 100 100);
-
+main article:hover {
+  box-shadow: 0px 0px 10px rgb(100 100 100);
 }
 
 .detalles-producto {
-
-    border-top: 0,1%  solid #ebebeb;
-    padding: 15px;
-    background-color: white;
-
+  border-top: 0, 1% solid #ebebeb;
+  padding: 15px;
+  background-color: white;
 }
 
 article h3.precio {
-    font-size: 18px;
-    margin-left: 2%;
-
-
+  font-size: 18px;
+  margin-left: 2%;
 }
 article h3.descuento {
-    font-size: 16px;
-  
-    color: #39b54a;
+  font-size: 16px;
 
+  color: #39b54a;
 }
 
 article h4 {
-    margin-left: 2%;
-    color: #666
-
+  margin-left: 2%;
+  color: #666;
 }
 
 .logo-envio {
-
-    color: #39b54a;
-    display: block;
-    position:absolute;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    border-radius: 50%;
-    background-color: #fff;
-    right:5px;
-    text-align: center;
-    margin-right: 10px;
-    margin-bottom: 50px;
-    margin-top: -30px;
-  
+  color: #39b54a;
+  display: block;
+  position: absolute;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  border-radius: 50%;
+  background-color: #fff;
+  right: 5px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  margin-top: -30px;
 }
 
 article h4.descripcion {
-    font-size: 16px;
-    margin-left: 2%;
-    display:none;
-
+  font-size: 16px;
+  margin-left: 2%;
+  display: none;
 }
 
 .responsive {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .logo-fiestas {
-
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
 }
 
 .responsive-logo {
-    width: 100px;
-    height: auto;
- 
+  width: 100px;
+  height: auto;
 }
 
 button {
-    background-color: #1259c3;
-    border: 2px solid #1259c3; 
-    color: white;
-
+  background-color: #1259c3;
+  border: 2px solid #1259c3;
+  color: white;
 }
 
 .menu-burger {
-  
-    display: block;
-    background-color: #1259c3;
-    border: 2px solid #1259c3;
-    border-radius: 5px;
-    color: white;
-    text-align: center;
-    line-height: 15px;
-    width: 40px;
-    margin: auto;
-    padding: 10px;
-    font-size:18px;
+  display: block;
+  background-color: #1259c3;
+  border: 2px solid #1259c3;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  width: 40px;
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
 }
 
 .precio-descuento {
-    display:flex;
-
+  display: flex;
 }
 
 .precio-descuento h3.precio {
-    flex-grow: 0.3;
-
+  flex-grow: 0.3;
 }
 .precio-descuento h3.descuento {
-    flex-grow: 0.7;
+  flex-grow: 0.7;
 }
 
 .footer-article {
-    color: #666;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 15px;
-    line-height: 17x;
-    margin: 10px;
-    box-shadow: initial;
+  color: #666;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+  line-height: 17x;
+  margin: 10px;
+  box-shadow: initial;
 }
 
 .article-copyright {
-    color: #666;
-    font-size: 10px;
-    box-shadow: initial;
+  color: #666;
+  font-size: 10px;
+  box-shadow: initial;
 }
 
 .input-nav {
-    width: 50%;
+  width: 50%;
 }
 
 .ultima-visita {
-    font-weight: 400;
-    margin-left: 1%;
+  font-weight: 400;
+  margin-left: 1%;
 }
 
 .cuotas-mobile {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 15px;
-    margin-bottom: 15px
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.cuotas-tablet{
-    display:none;
-    font-size: 16px;
-    font-weight: 400;
+.cuotas-tablet {
+  display: none;
+  font-size: 16px;
+  font-weight: 400;
 }
-
 
 footer {
-    margin-top: 100px; 
-    position:relative;
-    top: 140px;
+  margin-top: 100px;
+  position: relative;
+  top: 140px;
 }
 
 .footer-cart {
-    color: #1259c3;
-    font-size: 2em;
-    margin-bottom: 10px;
-    text-align: center;
+  color: #1259c3;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .footer-user {
-    color: #1259c3;
-    font-size: 2em;
-    margin-bottom: 10px;
-    text-align: center;    
+  color: #1259c3;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .footer-gift {
-    color: #1259c3;
-    font-size: 2em;
-    margin-bottom: 10px;
-    text-align: center;      
+  color: #1259c3;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
 }
-
-
-
-
 
 /* TABLET */
 
 @media (min-width: 461px) {
-  
-    footer {
-        position:relative;
-        top: 5px;
-    }
+  footer {
+    position: relative;
+    top: 5px;
+  }
 
-    main {
-        margin-top: 286px;
-        top: 5px;
-        width: 100%;
-    }
+  main {
+    margin-top: 286px;
+    top: 5px;
+    width: 100%;
+  }
 
-    .menu-burger {
-        display:none;
+  .menu-burger {
+    display: none;
+  }
 
-    }
+  .main-navbar {
+    display: inline-block;
+  }
 
-    .main-navbar {
-        display:inline-block;
-    }
+  .productos article {
+    width: 48%;
+  }
 
-    .productos article {
-        width:48%;
-    }
+  .cuotas-mobile {
+    display: none;
+  }
 
-    .cuotas-mobile {
-        display:none;   
-    }
-    
-    .cuotas-tablet{
-        display:inline;
-        font-style: normal;
-        font-size: 16px;
-        font-weight: 400;
-    }
-
-
+  .cuotas-tablet {
+    display: inline;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
-
-
 
 /* DESKTOP*/
 @media (min-width: 769px) {
-    
-    main {
-        margin-top: 147px;
-        top: 5px;
-        width: 100%;
-    }
+  main {
+    margin-top: 147px;
+    top: 5px;
+    width: 100%;
+  }
 
-    .footer-container {
-        display:flex;
+  .footer-container {
+    display: flex;
+  }
 
-    }
+  footer {
+    margin-top: 100px;
+    top: 5px;
+  }
 
-    footer {
-        margin-top: 100px;
-        top:5px;
-    }
+  .responsive-logo {
+    width: 200px;
+  }
 
-    .responsive-logo {
-        width: 200px;
-    }
-    
-    main article h4.descripcion {
-        display:block;
-        position:absolute;
-        bottom:40px;
-        z-index:-1;
-        opacity: 0;
-    }
+  main article h4.descripcion {
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    z-index: -1;
+    opacity: 0;
+  }
 
-    main article:hover  h4.descripcion {
-        display:block;
-        position: relative;
-        bottom: 0;
-        z-index: 1;
-        opacity: 1;
-    }
+  main article:hover h4.descripcion {
+    display: block;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+    opacity: 1;
+  }
 
-    main article:hover  .productos article {
-        max-height: 352px;
-    }
+  main article:hover .productos article {
+    max-height: 352px;
+  }
 
-    .productos article {
-        transition: max-height 0.5s;
-    }
+  .productos article {
+    transition: max-height 0.5s;
+  }
 
-    main article:hover .logo-envio {
-        transform: rotate(-90deg);
+  main article:hover .logo-envio {
+    transform: rotate(-90deg);
+  }
 
-    }
+  main article .logo-envio {
+    transition: transform 0.5s;
+  }
 
-    main article .logo-envio{
-        transition: transform 0.5s;
+  main article h4.descripcion {
+    transition: opacity 0.5s;
+  }
 
-    }
+  .productos article {
+    width: 24%;
+  }
 
+  .main-navbar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
 
-    main article h4.descripcion {
-        transition: opacity  0.5s;
-    }
+  .main-navbar ul {
+    display: flex;
+  }
 
+  .main-navbar li {
+    margin: 0 5px;
+  }
 
-    
-    .productos article {
-        width:24%;
+  .menu-burger {
+    display: none;
+  }
 
-    }
-
-    .main-navbar {
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .main-navbar ul {
-        display: flex;
-    }
-
-    .main-navbar li {
-       margin: 0 5px;
-    }
-
-    .menu-burger {
-        display:none;
-    }
-
-    .main-container-logo {
-        display: flex;     
-    }
+  .main-container-logo {
+    display: flex;
+  }
 }
