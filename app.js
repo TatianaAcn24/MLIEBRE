@@ -6,8 +6,9 @@ app.use(express.static('public'));
 
 /* heroku */
 
-app.listen(process.env.PORT || 3030, function(){
-    console.log("servidor corriendo en el purto 3030");
+const port= process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log("servidor corriendo en el purto: ${port} ");
 })
 
 /* app.listen('3030',()=>
