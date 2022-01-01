@@ -54,11 +54,17 @@ main {
 }
 
 @media (min-width: 361px) {
+  .form-registro{
+    margin-top: 150px;
+  }
   main {
     top: 320px;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
+  .form-registro{
+    margin-top: 200px;
+  }
   main {
     top: 150px;
   }

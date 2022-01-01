@@ -1,5 +1,5 @@
-@import url(styles-login.css);
 @import url(styles-register.css);
+@import url(styles-login.css);
 
 * {
   margin: 0;
@@ -240,27 +240,27 @@ footer {
   text-align: center;
 }
 
-/* TABLET */
+/* Mobile */
 
-@media (min-width: 461px) {
+@media (min-width: 361px) {
   footer {
     position: relative;
     top: 5px;
   }
 
   main {
-    margin-top: 286px;
+    margin-top: 50px;
     top: 5px;
     width: 100%;
   }
 
-  .menu-burger {
+ /*  .menu-burger {
     display: none;
   }
 
   .main-navbar {
     display: inline-block;
-  }
+  } */
 
   .productos article {
     width: 48%;
@@ -278,8 +278,15 @@ footer {
   }
 }
 
-/* DESKTOP*/
-@media (min-width: 769px) {
+/* tablet*/
+@media (min-width: 768px) {
+  .menu-burger {
+    display: none;
+  }
+
+  .main-navbar {
+    display: inline-block;
+  } 
   main {
     margin-top: 147px;
     top: 5px;
